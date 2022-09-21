@@ -1,0 +1,220 @@
+﻿@model IEnumerable<Zbuss_Proyect.Models.Something>
+@{
+   
+
+    int i = 0;
+}
+<link href="~/css/Estilos.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<div class="text-center">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            @foreach (var item in Model)
+            {
+                i++;
+                var active = i == 1 ? "active" : "";
+                <div class="carousel-item @active">
+                    <img class="d-block w-100" src="~/imagenes/@item.Img" alt="@item.Title">
+                </div>
+
+            }
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+        <h1 class="display-4 dark">Bienvenidos a</h1>
+    <img src="data:image/png;base64,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" />
+    <br />
+    <br />
+    <br />
+
+    <form class="container-filter">
+        <div class="row align-items-center p-4">
+            <div class="col-2">
+                <label for="fechaSa" class="form-label text-light font-weight-bold fs-filter">Fecha de salida</label>
+            </div>
+            <div class="col-2">
+                <input type="date" class="form-control" id="fechaSa">
+            </div>
+            <div class="col-1">
+                <label for="cboSalida" class="form-label text-light font-weight-bold fs-filter">Partida</label>
+            </div>
+            <div class="col-2">
+                <select class="form-select" aria-label="Default select example" id="cboSalida">
+                    <option selected value="">Elige el lugar</option>
+                    <option value="CARAZ">CARAZ</option>
+                    <option value="CARHUAZ">CARHUAZ</option>
+                    <option value="CHANCAY">CHANCAY</option>
+                    <option value="HUACHO">HUACHO</option>
+                    <option value="HUARAL">HUARAL</option>
+                    <option value="HUARAZ">HUARAZ</option>
+                    <option value="LIMA">LIMA</option>
+                    <option value="YUNGAY">YUNGAY</option>
+                </select>
+            </div>
+            <div class="col-1">
+                <label for="cboDestino" class="form-label text-light font-weight-bold fs-filter">Destino</label>
+            </div>
+            <div class="col-2">
+                <select class="form-select" aria-label="Default select example" id="cboDestino">
+                    <option selected value="">Elige el lugar</option>
+                    <option value="CARAZ">CARAZ</option>
+                    <option value="CARHUAZ">CARHUAZ</option>
+                    <option value="CHANCAY">CHANCAY</option>
+                    <option value="HUACHO">HUACHO</option>
+                    <option value="HUARAL">HUARAL</option>
+                    <option value="HUARAZ">HUARAZ</option>
+                    <option value="LIMA">LIMA</option>
+                    <option value="YUNGAY">YUNGAY</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <button type="button" id="btnBuscar" class="btn btn-warning">Buscar viajes</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div>
+    <br />
+    <br />
+
+    <div class="card-deck row row-cols-1 row-cols-md-3 g-4">
+        <div class="col ">
+            <img class="card-img-top" src="~/imagenes/caraz.jpg" alt="Card image cap" height="250">
+            <div class="card-body ">
+                <h5 class="card-title text-center">CARAZ</h5>
+                <p class="card-text"><small class="text-muted">Elige tu Destino</small></p>
+            </div>
+        </div>
+        <div class="col ">
+            <img class="card-img-top" src="~/imagenes/huaral.jpg" alt="Card image cap" height="250">
+            <div class="card-body ">
+                <h5 class="card-title text-center">HUARAL</h5>
+                <p class="card-text"><small class="text-muted">Elige tu Destino</small></p>
+            </div>
+        </div>
+        <div class="col ">
+            <img class="card-img-top" src="~/imagenes/huacho.jpg" alt="Card image cap" height="250">
+            <div class="card-body ">
+                <h5 class="card-title text-center">HUACHO</h5>
+                <p class="card-text"><small class="text-muted">Elige tu Destino</small></p>
+            </div>
+        </div>
+        <div class="col ">
+            <img class="card-img-top" src="~/imagenes/yungay.jpg" alt="Card image cap" height="250">
+            <div class="card-body">
+                <h5 class="card-title text-center">YUNGAY</h5>
+                <p class="card-text"><small class="text-muted">Elige tu Destino</small></p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top" src="~/imagenes/huaraz.jpg" alt="Card image cap" height="250">
+            <div class="card-body">
+                <h5 class="card-title text-center">HUARAZ</h5>
+                <p class="card-text"><small class="text-muted">Elige tu Destino</small></p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top" src="~/imagenes/carhuaz.jpg" alt="Card image cap" height="250">
+            <div class="card-body">
+                <h5 class="card-title text-center">CARHUAZ</h5>
+                <p class="card-text"><small class="text-muted">Elige tu Destino</small></p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title text-center">COMUNICADO A TODOS NUESTROS USUARIOS</h5>
+            <p class="card-text">
+                Preocupados por nuestros pasajeros y colaboradores en brindarles la confianza y garantizarles
+                que estamos cumpliendo con los más altos estándares de calidad en seguridad vial y sanitaria.
+            </p>
+            <p class="card-text text-center bg-success"><small class="text-warning  fs-4 font-weight-bold ">A VIAJAR SEGURO!</small></p>
+        </div>
+        <img class="card-img-bottom" src="~/imagenes/ZBUSS9.png" alt="Card image cap">
+        <div>
+            <p class="card-text text-center "><small class="text-dark  fs-4 font-weight-bold ">OPCIONES DE PAGO!</small></p>
+            <img class="card-img-bottom" src="~/imagenes/zbuss13.png" alt="Card image cap">
+        </div>
+        <div>
+            <h5 class="card-title text-center"></h5>
+            <p class="card-text text-center "><small class="text-success  fs-4 font-weight-bold ">POR QUE ELEGIRNOS!</small></p>
+
+            <img class="card-img-bottom" src="~/imagenes/zbuss12.png" alt="Card image cap">
+
+        </div>
+        <div>
+            <h5 class="card-title text-center"></h5>
+
+            <img class="card-img-bottom" src="~/imagenes/ZBUSS13.jpg" alt="Card image cap">
+
+        </div>
+
+
+        
+
+
+    </div>
+
+    
+     
+
+    
+    <div>
+        <br />
+        <br />
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+
+        $('#btnBuscar').click(function (e) {
+
+            var FechaSa = $('#fechaSa').val();
+            var SalidaPa = $('#cboSalida').val();
+            var DestinoPa = $('#cboDestino').val();
+
+            var params = {
+                FechaSalida: FechaSa,
+                PuntoPartida: SalidaPa,
+                PuntoLlegada: DestinoPa
+            }
+
+            var VG_RUTA_SERVIDOR = "";
+            console.log(params);
+            $.ajax
+                ({
+                    type: "POST",
+                    url: "/Filtrar/Filtrar",
+                    data: { Viaje: params },
+                    dataType: "text",
+                    success: function (result) {
+                        console.log(result);
+                        window.top.location.href = VG_RUTA_SERVIDOR + "Filtrar/Index";
+                    },
+                    error: function (result) {
+                        alert("ERROR Al cargar almacen");
+                    }
+                })
+        })
+    </script>

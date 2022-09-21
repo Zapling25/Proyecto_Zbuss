@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Leogladeador\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Leogladeador\\.nuget\\packages"
+    ]
+  }
+}
