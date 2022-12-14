@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leogladeador\\Desktop\\LEO ARCHIVOS\\IDAT\\CICLO IV\\Proyecto_Zbuss\\Zbuss_Proyect_HanyV14\\Zbuss_Proyect\\Zbuss_Proyect.csproj": {}
+    "C:\\Users\\cuent\\source\\repos\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leogladeador\\Desktop\\LEO ARCHIVOS\\IDAT\\CICLO IV\\Proyecto_Zbuss\\Zbuss_Proyect_HanyV14\\Zbuss_Proyect\\Zbuss_Proyect.csproj": {
+    "C:\\Users\\cuent\\source\\repos\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leogladeador\\Desktop\\LEO ARCHIVOS\\IDAT\\CICLO IV\\Proyecto_Zbuss\\Zbuss_Proyect_HanyV14\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
+        "projectUniqueName": "C:\\Users\\cuent\\source\\repos\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
         "projectName": "Zbuss_Proyect",
-        "projectPath": "C:\\Users\\Leogladeador\\Desktop\\LEO ARCHIVOS\\IDAT\\CICLO IV\\Proyecto_Zbuss\\Zbuss_Proyect_HanyV14\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
-        "packagesPath": "C:\\Users\\Leogladeador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leogladeador\\Desktop\\LEO ARCHIVOS\\IDAT\\CICLO IV\\Proyecto_Zbuss\\Zbuss_Proyect_HanyV14\\Zbuss_Proyect\\obj\\",
+        "projectPath": "C:\\Users\\cuent\\source\\repos\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
+        "packagesPath": "C:\\Users\\cuent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cuent\\source\\repos\\Proyecto_Zbuss\\Zbuss_Proyect\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Leogladeador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cuent\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
         }
       }
     }

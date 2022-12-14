@@ -79,8 +79,7 @@
 
                     localStorage.setItem("fechaViaje", fechav);
                     localStorage.setItem("codBus", idBus);
-
-                    window.location = "@Url.Action("Index","Asientos")";
+                    window.location = '@Url.Action("Index", "Asientos")';
                 },
                 error: function (result) {
                     alert("Error al acceder al controlador");
