@@ -25,21 +25,21 @@ namespace Zbuss_Proyect.Controllers
             {
                 Id = 1,
                 Title = "Some 1",
-                Img = "ZBUSS4.jpg"
+                Img = "b1.jpg"
 
             });
             somethings.Add(new Something()
             {
                 Id = 2,
                 Title = "Some 2",
-                Img = "ZBUSS5.jpg"
+                Img = "b2.jpg"
 
             });
             somethings.Add(new Something()
             {
                 Id = 3,
                 Title = "Some 3",
-                Img = "ZBUSS6.jpg"
+                Img = "b3.jpg"
 
             });
             return View(somethings);
