@@ -9489,8 +9489,11 @@ C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.RazorAssemblyInfo.cache
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.RazorAssemblyInfo.cs
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\staticwebassets\Zbuss_Proyect.StaticWebAssets.Manifest.cache
+<<<<<<< HEAD
+=======
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\staticwebassets\Zbuss_Proyect.StaticWebAssets.xml
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\scopedcss\bundle\Zbuss_Proyect.styles.css
+>>>>>>> 9a7a82f2f81caed713aecbede8feeaf731277c4e
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.TagHelpers.input.cache
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.TagHelpers.output.cache
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.RazorCoreGenerate.cache
@@ -9551,6 +9554,10 @@ C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.pdb
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.genruntimeconfig.cache
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Razor\Views\Asientos\Index.cshtml.g.cs
+<<<<<<< HEAD
+C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\staticwebassets\Zbuss_Proyect.StaticWebAssets.xml
+C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\scopedcss\bundle\Zbuss_Proyect.styles.css
+=======
 <<<<<<< HEAD
 C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.csproj.AssemblyReference.cache
 C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.GeneratedMSBuildEditorConfig.editorconfig
@@ -10020,3 +10027,4 @@ C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1
 C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_Proyect\obj\Debug\netcoreapp3.1\Zbuss_Proyect.genruntimeconfig.cache
 =======
 >>>>>>> 355c880d8b3b8beb7c917f6de8eb4148f8cb750d
+>>>>>>> 9a7a82f2f81caed713aecbede8feeaf731277c4e

@@ -1867,13 +1867,20 @@ C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcore
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.csproj.CoreCompileInputs.cache
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\staticwebassets\WSZbuss_Proyect.StaticWebAssets.Manifest.cache
+<<<<<<< HEAD
+=======
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\staticwebassets\WSZbuss_Proyect.StaticWebAssets.xml
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\WSZbuss_Proyect.styles.css
+>>>>>>> 9a7a82f2f81caed713aecbede8feeaf731277c4e
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.RazorTargetAssemblyInfo.cache
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.csproj.CopyComplete
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.dll
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.pdb
 C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\staticwebassets\WSZbuss_Proyect.StaticWebAssets.xml
+C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\WSZbuss_Proyect.styles.css
+=======
 <<<<<<< HEAD
 C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_ProyectWebApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_ProyectWebApi\bin\Debug\netcoreapp3.1\appsettings.json
@@ -2011,3 +2018,4 @@ C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcore
 C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_ProyectWebApi\obj\Debug\netcoreapp3.1\WSZbuss_Proyect.genruntimeconfig.cache
 =======
 >>>>>>> 355c880d8b3b8beb7c917f6de8eb4148f8cb750d
+>>>>>>> 9a7a82f2f81caed713aecbede8feeaf731277c4e

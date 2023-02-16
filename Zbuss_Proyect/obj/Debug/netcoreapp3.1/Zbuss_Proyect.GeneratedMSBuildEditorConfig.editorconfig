@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = Zbuss_Proyect
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\cuent\source\repos\Proyecto_Zbuss\Zbuss_Proyect\
+=======
 build_property.ProjectDir = C:\Users\HANY\Desktop\Zbuss\Proyecto_Zbuss\Zbuss_Proyect\
+>>>>>>> 9a7a82f2f81caed713aecbede8feeaf731277c4e
