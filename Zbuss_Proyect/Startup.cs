@@ -33,7 +33,7 @@ namespace Zbuss_Proyect
             services.AddControllersWithViews();
             services.AddDbContext<bd_VENTAS_ZBUSSContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Zbuss_ProyectDBConn")));
 
-            //Se registra el modo de Authenticación como servicio en el proyecto
+            //Se registra el modo de Authenticaciï¿½n como servicio en el proyecto
             //https://stackoverflow.com/questions/44018218/asp-net-core-simplest-possible-forms-authentication/44018596
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(o => o.LoginPath = new PathString("/Usuario/login"));
         }
