@@ -8604,19 +8604,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cuent\\.nuget\\packages\\": {}
+    "C:\\Users\\Josei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cuent\\OneDrive\\Escritorio\\Cosas mias\\IDAT\\PROYECTOS FEBRERO\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
+      "projectUniqueName": "C:\\Users\\Josei\\Desktop\\PROYECTO _ FINAL\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
       "projectName": "Zbuss_Proyect",
-      "projectPath": "C:\\Users\\cuent\\OneDrive\\Escritorio\\Cosas mias\\IDAT\\PROYECTOS FEBRERO\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
-      "packagesPath": "C:\\Users\\cuent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cuent\\OneDrive\\Escritorio\\Cosas mias\\IDAT\\PROYECTOS FEBRERO\\Proyecto_Zbuss\\Zbuss_Proyect\\obj\\",
+      "projectPath": "C:\\Users\\Josei\\Desktop\\PROYECTO _ FINAL\\Proyecto_Zbuss\\Zbuss_Proyect\\Zbuss_Proyect.csproj",
+      "packagesPath": "C:\\Users\\Josei\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Josei\\Desktop\\PROYECTO _ FINAL\\Proyecto_Zbuss\\Zbuss_Proyect\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cuent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Josei\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8679,7 +8679,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }
